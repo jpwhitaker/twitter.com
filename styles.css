@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+}
+
+#tweetStream {
+  margin: 0 auto;
+  width: 600px;
+  height:1000px;
+  background-color: transparent;
+}
+
+.tweetContainer{
+  height: 120px;
+  width:100%;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#fcfcfc), to(#bfbfbf), color-stop(3%, #f7f7f7), color-stop(12%, #f2f2f2), color-stop(90%, #d9d9d9));
+  background-image: -webkit-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: -moz-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: -o-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: -ms-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  background-image: linear-gradient(to bottom, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+  -webkit-box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+  margin-top: 10px;
+
+}
+
+.tweetHead{
+height:45px;
+  width: 100%;
+border:none;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#424242), to(#212121));
+background-image: -webkit-linear-gradient(top, #424242, #212121);
+background-image: -moz-linear-gradient(top, #424242, #212121);
+background-image: -o-linear-gradient(top, #424242, #212121);
+background-image: -ms-linear-gradient(top, #424242, #212121);
+background-image: linear-gradient(to bottom, #424242, #212121);
+-webkit-box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+
+
+}
+
+.twitterUsername {
+  background-color: transparent;
+  margin-left: 10px;
+  display: inline;
+  padding:8px;
+  float:left;
+  height: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color:#E9E9E9;
+  font-family: sans-serif;
+}
+
+.tweetTime {
+  background-color:transparent; 
+  margin-right: 10px;
+  padding: 8px;
+  margin-top: 4px;
+  display: inline;
+  float: right;
+  height: 20px;
+  font-size: 14px;
+  font-weight: lighter;
+  color:#BCBCBC;
+  font-family: sans-serif
+}
+
+.tweetMessage{
+  background-color: transparent;
+  padding:20px;
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #  424242;
+
+}
